@@ -1,0 +1,86 @@
+﻿{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 5,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "I help you know where your money's gone; from morning, till dawn, every coin and every bill, with me, there's no uphill. What am I?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "A calculator",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "A Saving Box",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "A budget diary",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": true
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "A budget diary helps you keep track of your money by writing down what you spend each day, so you always know where your money went.",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ]
+  }
+
+
+  
+}
+
+

@@ -1,0 +1,68 @@
+{
+  "template": "activity-table",
+  "table": {
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "Record Receipt"
+        },
+        {
+          "type": "text",
+          "value": "Ray and Max had an adventurous week. They collected some receipts of their expenditures. Can you help sort and list them down?"
+        }
+      ]
+    },
+    "showRowNumber": true,
+    "columns": [
+      {
+        "header": [
+          {
+            "type": "text",
+            "value": "Date"
+
+          }
+        ],
+        "type": "input"
+      },
+      {
+        "header": [
+          {
+            "type": "text",
+            "value": "Item/store name"
+
+          }
+        ],
+        "type": "input"
+      },
+      {
+        "header": [
+          {
+            "type": "text",
+            "value": "Amount (including tax)"
+
+          }
+        ],
+        "type": "input"
+      }
+    ],
+    "rows": [
+      [
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {}
+      ]
+    ]
+  }
+}

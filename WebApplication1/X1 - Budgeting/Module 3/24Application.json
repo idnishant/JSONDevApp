@@ -1,0 +1,82 @@
+﻿{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": " Ray and Max found a receipt from their weekend adventure. \nIf the receipt shows they bought a toy for $10, \nwhere will they add this in their budget diary?",
+        "style": {
+                "fontSize": "24px",
+                "fontWeight": "400"
+                
+              }
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Money they got",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Money they spent",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Money they might spend later",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "They should put it in \"Money they spent\" because they already used the $10 to buy the toy on their adventure. \nIt's like saying, \"We spent this money on something fun!\"",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ]
+  }
+}
+

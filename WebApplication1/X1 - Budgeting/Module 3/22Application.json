@@ -1,0 +1,79 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "selectUntilCorrect": true,
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "Ray and Max had initially set a budget of $40 \nfor their adventures this month. \nHowever, after spending $33, they discovered a new limited edition game they both wanted for $25.\n With just $7 left, they'll go over budget by $18 if they buy it.\n How can they adjust or review their budget?",
+          "style": {
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Buy the game and spend $18 over budget"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Adjust their budget by cutting other expenses to accommodate the game"
+          }
+        ]
+
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Save the $7 for future adventures and skip the game this month"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Borrow money from a friend to buy the game"
+          }
+        ]
+      }
+
+
+    ]
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "If unsure, ask Greenline for advice",
+        "text": "Hey Greenline, i am 8 years old, I have categorized my expenses as fixed, variable and periodic.if I want to save 20% as per the golden rule of budgeting how can I decide which expenses I can avoid?"
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,46 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/backgrounds/bg-1.svg",
+    "foreground": "/assets/images/backgrounds/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "Totally! And if there's a twist in the tale, we know just how to handle it"
+          }
+        ],
+
+        "url": "/assets/characters/ray-talking.svg"
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+
+        "url": "/assets/characters/max-talking.svg"
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "sender": "Greenline",
+      "text": "You got it, buddies! Think of money like a game. Just like you track points in a game, you track money. And when things change, you adjust. And I'm here to help!"
+    }
+  ]
+}
+

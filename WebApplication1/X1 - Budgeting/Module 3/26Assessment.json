@@ -1,0 +1,67 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 3,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "If you spent more money on candy this month than you planned. Should you think about adjusting your budget for the next month?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Yes",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "No",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Yes, you should think about adjusting your budget for the next month because if you spent too much on candy this month, you might not have enough money for other important things like toys or saving for the future",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ]
+  }
+}
+

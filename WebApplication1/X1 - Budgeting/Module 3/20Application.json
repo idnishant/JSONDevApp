@@ -1,0 +1,49 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Treasure Trackers: Follow the Money Trail!",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "800"
+
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Ahoy, little detective! In the vast ocean of spending and savings,\n pirates Ray and Max have dropped some of their treasures. \nIt’s your job to track them down, record their journey, and ensure they don’t lose their path. \n\nReady to embark on this exciting money adventure?",
+        "style": {
+          "fontSize": "16px",
+          "fontWeight": "400"
+
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

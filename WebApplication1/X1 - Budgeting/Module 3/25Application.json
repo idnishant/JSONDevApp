@@ -1,0 +1,82 @@
+﻿{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 2,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": " Your friend realized he forgot to note down the cost of a comic book he bought last week.\n What should he do to ensure his budget stays accurate?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Ignore it since it's just one item",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Guess the cost and write it down",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Find the receipt or ask the store about the cost",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": true
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Your friend should find the receipt or ask the store about the cost because that way, he can make sure his budget stays correct and he knows exactly how much he spent on the comic book.",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ]
+  }
+}
+

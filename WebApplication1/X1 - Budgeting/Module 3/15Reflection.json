@@ -1,0 +1,57 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "selectUntilCorrect": true,
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "Is it a good idea to regularly check how much you have saved or spent to understand your spending habits",
+          "style": {
+            "fontWeight": "400"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "No, it’s too much work"
+          }
+        ],
+        "feedback":
+        {
+          "text": "Okay, young budget trackers, let's learn how to keep an eye on our budget and make adjustments when needed. Life can be full of surprises, but with the right tools, we can always be prepared!"
+        }
+      },
+
+
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Yes, it makes monitoring easy"
+          }
+        ],
+        "feedback": {
+          "text": "Okay, young budget trackers, let's learn how to keep an eye on our budget and make adjustments when needed. Life can be full of surprises, but with the right tools, we can always be prepared!"
+        }
+      }
+    ]
+  }
+}
+

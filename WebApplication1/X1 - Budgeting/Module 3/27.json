@@ -1,0 +1,66 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 4,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "Max wants to save for a new bicycle. Should he include the bicycle's cost in his budget even if he's not buying it right now?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "No, because he will buy it some time in future",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Yes, as this will help him stay under budget",
+            "style": {
+              "fontSize": "15px",
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Max shoald include the bicycle's cost in his budget because it helps him plan and save money for it, so he can get his dream bike when the time comes without any money worries!",   "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ]
+  }
+}
+
