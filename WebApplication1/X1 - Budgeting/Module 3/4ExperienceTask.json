@@ -1,0 +1,41 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/backgrounds/bg-1.svg",
+    "foreground": "/assets/images/backgrounds/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "Maybe we can use an app or something? I've heard some help in recording transactions."
+          }
+        ],
+        "url": "/assets/characters/ray-talking.svg"
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+
+        "url": "/assets/characters/max-talking.svg"
+      }
+    ]
+  }
+}
+
+
+

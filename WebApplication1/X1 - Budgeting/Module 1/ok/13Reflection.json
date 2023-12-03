@@ -1,0 +1,58 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "When you get money as a gift, do you prefer to save it or spend it right away?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+          }
+
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Spend it, because it is so much fun."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Save it"
+          }
+        ]
+      } ,
+        {
+          "id": 3,
+          "contents": [
+            {
+              "type": "text",
+              "value": "I give it to my Mom."
+            }
+          ]
+
+        }
+      
+    ]
+  }
+}

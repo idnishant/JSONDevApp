@@ -1,0 +1,36 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Module Summary"
+      },
+      {
+        "type": "text",
+        "value": "Discover how savings accounts and “interest” can help your money grow safely."
+      },
+      {
+        "type": "text",
+        "value": "Delayed gratification and effective strategies for saving money"
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "primary",
+        "contents": [
+          {
+            "type": "text",
+            "value": "Next Module"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 5,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "I work for myself, taking on gigs, \nMy skills and knowledge are what I rig.\nI set my rates and manage my time,\nI get paid by the project, a system that's prime"
+        },
+        {
+          "type": "text-medium",
+          "value": " Who am I?"
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+           
+           
+          {
+            "type": "text",
+            "value": "Employee"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+         
+          {
+            "type": "text",
+            "value": "Self-Employed"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          
+          {
+            "type": "text",
+            "value": "Business Owner"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+         
+          {
+            "type": "text",
+            "value": "Investor"
+          }
+        ],
+        "isCorrect": true
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The poem describes a person who works for an employer (could be an employee) but also engages in investment activities such as stocks, real estate, and other assets that generate dividends, rent, and interests. Investors earn income from their investments and aim to build a diversified portfolio for financial growth."
+      }
+    ]
+  }
+}

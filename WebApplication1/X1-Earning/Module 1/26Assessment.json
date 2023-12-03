@@ -1,0 +1,43 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundColor": "#EDFFEF",
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/images/great-work.svg",
+        "style": {
+          "height": "7.5rem"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Now, let's assess your knowledge of what we have learned so far",
+        "style": {
+          "fontWeight": "800"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "primary",
+        "contents": [
+          {
+            "type": "text",
+            "value": "Start Assessment"
+          },
+          {
+            "type": "image",
+            "value": "/assets/icons/chevron-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "template": "activity-input",
+  "input": {
+    "length": 3,
+    "question": [
+      {
+        "type": "image",
+        "value": "/assets/icons/question-mark-icon.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Now, based on the suggestions of Ms. Greenline, can you write down any 3 ways which you would want to follow to save money?"
+      }
+    ]
+  }
+}

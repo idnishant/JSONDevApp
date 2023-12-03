@@ -1,0 +1,73 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 4,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": " 4. Why is opening a savings account at a bank a good idea?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It is a place to buy snacks"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It helps your money grow safely with something called "
+            "interest\"\"",
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It makes it easy to spend all your money"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "None of the above"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "A savings account at a bank is a good idea because it allows your money to grow through "
+        "interest.\" This means the bank pays you a little extra money for keeping your savings with them. It's a safe and smart way for your money to increase over time.\"",
+      },
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg"
+
+      }
+
+    ]
+  }
+}

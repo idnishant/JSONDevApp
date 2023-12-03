@@ -1,0 +1,74 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "variant": "tile",
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "Help Tara plan her charity fundraiser by making choices that leverage her skills, interests, knowledge, and time effectively.",
+          "style": {
+            "fontWeight": "800"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "Click on one of the following options that represents an interest or passion of Tara:",
+          "style": {
+            "fontWeight": "400"
+          }
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/text-option12.png",
+            "style": {
+              "maxHeight": "13rem",
+              "height": "13rem",
+              "width": "13rem"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/text-option7.png",
+            "style": {
+              "maxHeight": "13rem",
+              "height": "13rem",
+              "width": "13rem"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/text-option6.png",
+            "style": {
+              "maxHeight": "13rem",
+              "height": "13rem",
+              "width": "13rem"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+

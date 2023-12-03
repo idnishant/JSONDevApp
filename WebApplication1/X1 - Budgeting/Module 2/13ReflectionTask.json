@@ -1,0 +1,48 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "selectUntilCorrect": true,
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "When you go to the store, who usually makes the payment for the stuff?",
+          "style": {
+            "fontWeight": "400"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Is it your parents"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": " You use your own pocket money"
+          }
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,45 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/modules/paid-L2EA02/bg-1.png",
+    "foreground": "/assets/images/modules/paid-L2EA02/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+
+        "url": "/assets/characters/ray-talking.svg"
+      },
+      {
+        "name": "John",
+        "color": "#FFA07F",
+        "url": "/assets/images/modules/paid-L2EA02/artisit-character.png"
+      },
+
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "That's cool, Thank you John! Now I know how I'll be spending the upcoming summer break. Oh But wait, that would mean even my dad earns a commission for teaching students like us ?"
+          }
+        ],
+        "url": "/assets/characters/max-talking.svg"
+      }
+    ]
+  }
+}
+

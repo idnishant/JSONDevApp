@@ -1,0 +1,172 @@
+{
+  "template": "activity-mcq",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/modules/demo-FINX101/taskbg.png)",
+      "backgroundSize": "100% 100%",
+      "backgroundPosition": "center"
+    }
+  },
+  "mcq": {
+    "variant": "tile",
+    "optionsFlow": "horizontal",
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "Question 2: \nClick on the items to discover the dream adventure for which you would like to save money.",
+          "style": {
+            "fontWeight": "700"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/watch.svg",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "style": {
+          "border": "none",
+          "padding": "unset"
+        },
+        "selectedStyle": {
+          "padding": "unset",
+          "border": "5px solid #9685FF",
+          "borderRadius": "1.5rem"
+        }
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/watch.svg",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "style": {
+          "border": "none",
+          "padding": "unset"
+        },
+        "selectedStyle": {
+          "padding": "unset",
+          "border": "5px solid #9685FF",
+          "borderRadius": "1.5rem"
+        }
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/watch.svg",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "style": {
+          "border": "none",
+          "padding": "unset"
+        },
+        "selectedStyle": {
+          "padding": "unset",
+          "border": "5px solid #9685FF",
+          "borderRadius": "1.5rem"
+        }
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/watch.svg",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "style": {
+          "border": "none",
+          "padding": "unset"
+        },
+        "selectedStyle": {
+          "padding": "unset",
+          "border": "5px solid #9685FF",
+          "borderRadius": "1.5rem"
+        }
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/watch.svg",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "style": {
+          "border": "none",
+          "padding": "unset"
+        },
+        "selectedStyle": {
+          "padding": "unset",
+          "border": "5px solid #9685FF",
+          "borderRadius": "1.5rem"
+        }
+      },
+      {
+        "id": 6,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/watch.svg",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "style": {
+          "border": "none",
+          "padding": "unset"
+        },
+        "selectedStyle": {
+          "padding": "unset",
+          "border": "5px solid #9685FF",
+          "borderRadius": "1.5rem"
+        }
+      }
+    ]
+  }
+}

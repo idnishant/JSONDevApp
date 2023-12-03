@@ -1,0 +1,34 @@
+{
+  "template": "activity-input",
+  "input": {
+    "length": 6,
+    "question": [
+      {
+        "type": "image",
+        "value": "/assets/icons/question-mark-icon.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Create a list of skills or interests that you have, which you can use to build a career for yourself.",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "40px"
+        }
+      }
+    ]
+
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "In case you are not able to think of anything or if you do not have any particular skill, you can get help from Ms. Greenline (chatbot) to create your list.",
+        "text": "Hey, I am a Grade 4 student and I want to know the career options that I have based on different skills. Can you give me any 5 options?"
+      }
+    }
+  ]
+}

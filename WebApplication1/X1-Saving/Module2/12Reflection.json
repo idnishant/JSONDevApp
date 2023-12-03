@@ -1,0 +1,63 @@
+{
+  "template": "activity-mcq",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/modules/demo-FINX101/taskbg.png)",
+      "backgroundSize": "100% 100%",
+      "backgroundPosition": "center"
+    }
+  },
+  "mcq": {
+    "variant": "tile",
+    "optionsFlow": "virtical",
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "Instructions: Based on the questions given, select the answer from the options."
+        },
+        {
+          "type": "text-heading",
+          "value": "Question 1: Are you saving money for something right now?",
+          "style": {
+            "fontWeight": "700"
+          }
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L2EA01/watch.svg"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Yes, I am saving for my favorite thing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "No, not right now"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "I don’t save"
+          }
+        ]
+      }
+    ]
+  }
+}

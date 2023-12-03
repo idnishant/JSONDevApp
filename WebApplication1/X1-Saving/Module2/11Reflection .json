@@ -1,0 +1,30 @@
+{
+  "template": "readonly",
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/images/great-work.svg",
+        "style": {
+          "height": "7.5rem"
+        }
+      },
+      {
+        "type": "text-medium",
+        "value": "Treasure Hunt Time: Let's plan our savings adventure!"
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "primary",
+        "contents": [
+          {
+            "type": "text",
+            "value": "Let’s start"
+          }
+        ]
+      }
+    ]
+  }
+}

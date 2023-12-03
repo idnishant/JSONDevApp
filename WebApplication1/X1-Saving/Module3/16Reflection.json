@@ -1,0 +1,53 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Description: From the question given below, select what you think is the correct answer.Give  thumbs up for yes and a thumbs down for no."
+        },
+        {
+          "type": "text-heading",
+          "value": "Ques 1. Can saving money by being careful with your spending habits help you achieve your financial goals, like buying something special in the future?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/sparkles.svg"
+          }
+        ],
+        "feedback": {
+          "text": "You're right! Being smart with your spending and saving helps reach goals."
+        }
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/sparkles.svg"
+          }
+        ],
+        "feedback": {
+          "text": "Oops! But, spending carefully and saving for the future can be helpful."
+        }
+      }
+    ]
+  }
+}

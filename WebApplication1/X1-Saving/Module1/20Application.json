@@ -1,0 +1,40 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundColor": "#EDFFEF",
+      "backgroundImage": "url(/assets/images/backgrounds/assessment-startbg.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/images/great-work.svg",
+        "style": {
+          "height": "7.5rem"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Let’s go on a virtual Savings Adventure Quest to practice what you’ve learned about saving money."
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "primary",
+        "contents": [
+          {
+            "type": "text",
+            "value": "Start"
+          },
+          {
+            "type": "image",
+            "value": "/assets/icons/chevron-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

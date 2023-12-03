@@ -1,0 +1,61 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg",
+        "style": {
+          "width": "80px",
+          "height": "90px"
+        }
+
+      },
+      {
+        "type": "text-heading",
+        "value": "Learn everything about Savings: Saving goals and plans!",
+
+        "style": {
+          "fontFamily": "Nunito",
+          "fontSize": "32px",
+          "fontWeight": "800",
+          "lineHeight": "44px",
+          "letterSpacing": "0em",
+          "textAlign": "center"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Learn about saving money, setting goals, and making plans for a brighter financial future!",
+        "style": {
+          "fontFamily": "Nunito",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0em",
+          "textAlign": "center",
+          "background": "#EBF5FF",
+          "padding": "12px",
+          "borderRadius": "8px"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

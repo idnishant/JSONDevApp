@@ -1,0 +1,76 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 5,
+    "multiSelect": true,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": " 5. What are the benefits of savings? Choose the four correct options."
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It helps you save money for things you really want. "
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It allows you to plan for your future and achieve your dreams."
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It helps you spend all your money quickly. "
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It teaches you how to be a smart money manager. "
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "text",
+            "value": "It makes you wait a long time for anything you want. "
+          }
+        ],
+        "isCorrect": true
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Saving money offers various benefits, including helping you save for things you truly desire (A), enabling you to plan for your future and achieve your dreams (B), teaching you how to be a smart money manager (D), and promoting patience and wise spending choices, but it doesn't necessarily make you wait a long time for everything you want (E). Spending all your money quickly is not a benefit of savings, so option C is not correct."
+      }
+    ]
+  }
+}

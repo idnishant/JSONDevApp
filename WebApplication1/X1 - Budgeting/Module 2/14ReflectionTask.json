@@ -1,0 +1,49 @@
+
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "selectUntilCorrect": true,
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "Is it tricky to remember everything you spent money on?",
+          "style": {
+            "fontWeight": "400"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "No"
+          }
+        ]
+      }
+    ]
+  }
+}
+

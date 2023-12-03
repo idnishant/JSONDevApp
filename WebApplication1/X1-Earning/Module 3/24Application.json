@@ -1,0 +1,23 @@
+{
+  "template": "activity-input",
+  "input": {
+    "length": 3,
+    "question": [
+      {
+        "type": "image",
+        "value": "/assets/icons/question-mark-icon.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Now, based on the suggestions of Ms. Greenline, can you write down the skills or interests that you would want to pursue?",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ]
+  }
+}

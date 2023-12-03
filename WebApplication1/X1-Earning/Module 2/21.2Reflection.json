@@ -1,0 +1,34 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+
+      {
+        "type": "text-heading",
+        "value": "4 Work Styles"  
+
+      },
+      {
+        "type": "image",
+        "value": "/assets/images/modules/paid-L2EA02/work-styles-text.png"
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

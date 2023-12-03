@@ -1,0 +1,51 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/modules/paid-L3SP08/bg4.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Great! Now, it’s time for activity: “Interest Adventure”"
+      },
+      {
+        "type": "text-small",
+        "value": "Description: Get ready for a magical journey with your money. Here's how it works:"
+      },
+      {
+        "type": "text-medium",
+        "value": "1. Click on the seed to plant it in the magical money garden."
+      },
+      {
+        "type": "text-medium",
+        "value": "2. Imagine your seed as your savings. As you watch, it will start to grow all by itself!"
+      },
+      {
+        "type": "text-medium",
+        "value": "3. Over time, your seed will grow into a big, beautiful money tree."
+      },
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg",
+        "style": {
+          "height": "25rem"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

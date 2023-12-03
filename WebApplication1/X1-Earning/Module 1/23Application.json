@@ -1,0 +1,41 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/icons/badge.svg",
+        "style": {
+          "maxHeight": "11rem",
+          "height": "11rem",
+          "width": "11rem"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Wow Champ ! Tara is really glad you helped her and she was successful in her campaign as a reward she gives you 150 dollars.",
+        "style": {
+          "fontWeight": "800"
+        }
+      }
+
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

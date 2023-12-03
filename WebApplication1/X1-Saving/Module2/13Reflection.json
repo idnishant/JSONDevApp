@@ -1,0 +1,59 @@
+{
+  "template": "activity-mcq",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/modules/demo-FINX101/taskbg.png)",
+      "backgroundSize": "100% 100%",
+      "backgroundPosition": "center"
+    }
+  },
+  "mcq": {
+    "variant": "tile",
+    "optionsFlow": "virtical",
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "Question 2: What makes it hard to save money?",
+          "style": {
+            "fontWeight": "700"
+          }
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L2EA01/watch.svg"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "I want to buy things as soon as I get money."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Sometimes I forget to save."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "I always save without any problems."
+          }
+        ]
+      }
+    ]
+  }
+}

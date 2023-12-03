@@ -1,0 +1,55 @@
+{
+  "template": "activity-mcq",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "mcq": {
+    "selectUntilCorrect": true,
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Do you have enough money to buy the things you want?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+          }
+
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "isCorrect": true,
+        "contents": [
+          {
+            "type": "text",
+            "value": "No"
+          }
+        ]
+      }
+    ]
+  }
+}

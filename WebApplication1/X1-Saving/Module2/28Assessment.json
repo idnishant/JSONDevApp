@@ -1,0 +1,75 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": " What is the ultimate goal of following the steps in the savings adventure? "
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L3EA02/business-mcq.svg",
+          "style": {
+            "maxHeight": "12rem",
+            "height": "12rem",
+            "width": "12rem",
+            "verticalAlign": "bottom"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "To become a real-life superhero "
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "To collect badges in a video game"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": " To discover the hidden treasure chest  "
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "To open doors of opportunity"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": " Just like in a treasure hunt, when you save your money and make smart financial choices, you accumulate more and more savings over time. These savings can be thought of the hidden treasure chest that you've discovered by being a smart saver.)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "template": "readonly",
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Connect with the teacher to discuss your answers ",
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "40px"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+
+          }
+        ]
+      }
+    ]
+  }
+}
+

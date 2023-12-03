@@ -1,0 +1,160 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "multiSelect": false,
+    "variant": "tile",
+    "optionsFlow": "horizontal",
+
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "From the cards shown below, choose what you enjoy!",
+          "style": {
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "lineHeight": "40px"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA03/drawing.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+
+            }
+          }
+        ],
+        "feedback": 
+          {
+            "sender": "Greenline",
+            "text": "Okay, champ. Let’s watch a video to understand the factors one should actually consider while choosing their career."
+          }
+        
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA03/playing.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom",
+              "background": "#EAE2FF;"
+
+            }
+          }
+        ],
+        "feedback": {
+          "sender": "Greenline",
+          "text": "Okay, champ. Let’s watch a video to understand the factors one should actually consider while choosing their career."
+        }
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA03/gardening.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom",
+              "background": "#EAE2FF;"
+
+            }
+          }
+        ],
+        "feedback": {
+          "sender": "Greenline",
+          "text": "Okay, champ. Let’s watch a video to understand the factors one should actually consider while choosing their career."
+        }
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA03/eating.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom"
+            }
+
+          }
+        ],
+        "feedback": {
+          "sender": "Greenline",
+          "text": "Okay, champ. Let’s watch a video to understand the factors one should actually consider while choosing their career."
+        }
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA03/playing-piano.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom",
+              "background": "#EAE2FF;"
+
+            }
+
+          }
+        ],
+        "feedback": {
+          "sender": "Greenline",
+          "text": "Okay, champ. Let’s watch a video to understand the factors one should actually consider while choosing their career."
+        }
+      },
+      {
+        "id": 6,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA03/studying.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem",
+              "verticalAlign": "bottom",
+              "background": "#EAE2FF;"
+
+            }
+
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

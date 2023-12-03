@@ -1,0 +1,42 @@
+{
+  "template": "activity-table",
+  "table": {
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-medium",
+          "value": "Begin by researching different online platforms known"
+
+        }
+      ]
+    },
+    "orientation": "col-wise",
+    "columns": [
+      {
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Now take a moment and think - Did you manage to stay under the budget and still save money?",
+            "style": {
+              "fontWeight": "800"
+            }
+          }
+        ],
+        "color": "#EEFFF3",
+        "type": "select",
+        "values": [ "Yes", "No" ]
+      }
+    ],
+    "rows": [ [ {} ] ]
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "I am Greenline, your AI Mentor",
+        "text": "Hey, I am 8 years old and I just learned about Budgeting. Can you help me find out if there is  any thumb rule of Budgeting"
+      }
+    }
+  ]
+}

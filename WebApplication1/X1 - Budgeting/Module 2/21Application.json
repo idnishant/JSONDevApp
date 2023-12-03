@@ -1,0 +1,49 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg",
+        "style": {
+          "height": "5vh"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Sarah's Money Adventure",
+        "style": {
+          "fontSize": "30px",
+          "fontWeight": "800"
+
+        }
+      },
+      {
+        "type": "text",
+        "value": "Sarah received $30 from her grandmother for her birthday.\nExcited, she began planning on how to use it. \n\nShe knew she needed a new school bag, which would cost $20. Sarah also fancied a charm bracelet for $10. Every month, her mom gave her $10 to spend. This month, Sarah considered buying a book for $8. Plus, in two months, she planned to buy a special gift for her best friend's birthday that would cost around $15.",
+        "style": {
+          "fontSize": "16px",
+          "fontWeight": "400"
+
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

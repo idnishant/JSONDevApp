@@ -1,0 +1,31 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "video",
+        "value": "/assets/videos/modules/L2EA01.mp4"
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

@@ -1,0 +1,71 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 5,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "I'm the secret to building wealth and a friend that helps your future shine. What am I?"
+        }
+      ]
+    },
+    "optionsFlow": "vertical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Savings "
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Goal-setting"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Regular Savings"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Emergency Fund"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Savings plan"
+          }
+        ],
+        "isCorrect": true
+      }
+    ]
+  }
+}

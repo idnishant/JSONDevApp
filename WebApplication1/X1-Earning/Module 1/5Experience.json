@@ -1,0 +1,47 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "dialogues": [
+    {
+      "sender": "Greenline",
+      "text": " Let’s begin this journey with a good news, as this is your first journey, we have some rewards for you"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Hurray, you have received some money from Ms. Greenline! Now why don't we go shopping?",
+        "style": {
+          "fontWeight": "800"
+        }
+      },
+      {
+        "type": "image",
+        "value": "/assets/images/modules/paid-L2EA01/money.png",
+        "style": {
+          "maxHeight": "11rem",
+          "height": "11rem",
+          "width": "11rem"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+
+}

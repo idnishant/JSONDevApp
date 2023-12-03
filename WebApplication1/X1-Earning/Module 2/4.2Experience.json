@@ -1,0 +1,38 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/modules/paid-L2EA02/bg-1.png",
+    "foreground": "/assets/images/modules/paid-L2EA02/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+        "dialogues": [
+        
+          {
+            "type": "text",
+            "value": "Hey, look at that big painting over there! It's so colorful."
+          }
+        ],
+        "url": "/assets/characters/ray-talking.svg"
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "url": "/assets/characters/max-talking.svg"
+      }
+    ]
+  }
+}

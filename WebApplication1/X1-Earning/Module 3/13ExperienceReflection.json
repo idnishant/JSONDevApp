@@ -1,0 +1,39 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/modules/paid-L2EA03/bg-1.svg",
+    "foreground": "/assets/images/modules/paid-L2EA03/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+
+        "url": "/assets/characters/ray-talking.svg"
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "There's a lot to think about, huh?"
+          }
+        ],
+        "url": "/assets/characters/max-talking.svg"
+      }
+    ]
+  }
+}
+

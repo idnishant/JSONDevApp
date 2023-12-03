@@ -1,0 +1,114 @@
+{
+  "template": "activity-drag-n-drop",
+  "dragAndDrop": {
+    "questionNumber": 1,
+    "totalQuestions": 1,
+    "variant": "assessment",
+    "question": [
+    
+      {
+        "type": "text-medium",
+        "value": "Match each skill development method to its description."
+      }
+    ],
+    "categories": [
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Dream of toys or a park with slides, which step plans for fun future rides?"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Set Goals"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "From your savings  box very start, birthday money or chore chart. What's this step, so vital and keen?"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Identify income"
+
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+
+
+            "value": "Taste your soup, see how it's done, is it ready or has it just begun?"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Checking & Balancing"
+
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Toys or candy, things you've eyed, this step lists things to buy, what am I?"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "List out expenses"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "If it's too bland, add some zest! Which step ensures your budget's best?"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Adjust and Update"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

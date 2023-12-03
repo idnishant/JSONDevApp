@@ -1,0 +1,77 @@
+{
+  "template": "activity-crossword",
+  "crossword": {
+    "content": [
+
+      {
+        "type": "text-heading",
+        "value": "Solve the crossword puzzle to test your knowledge about choosing a career. \nEach clue will help you fill in the words related to what you've learned. Have fun!",
+        "style": {
+          "fontSize": "16px",
+          "fontWeight": "400"
+        }
+      }
+    ],
+    "data": {
+      "across": {
+        "3": {
+          "clue": [
+            {
+              "type": "text-small",
+              "value": "I'm what you feel when your work's on the rise, Your job gets better, what a pleasant surprise. What am I?"
+            }
+          ],
+          "answer": "GROWTH",
+          "row": 2,
+          "col": 0
+        },
+        "4": {
+          "clue": [
+            {
+              "type": "text-small",
+              "value": "I'm where skills are sought, you'll soon agree, Where employers seek expertise, come find me. What am I?"
+            }
+          ],
+          "answer": "DEMAND",
+          "row": 5,
+          "col": 3
+        },
+        "5": {
+          "clue": [
+            {
+              "type": "text-small",
+              "value": "I'm what you learn to be really good at, Like playing an instrument or swinging a bat. What am I?"
+            }
+          ],
+          "answer": "SKILLS",
+          "row": 8,
+          "col": 4
+        }
+      },
+      "down": {
+        "1": {
+          "clue": [
+            {
+              "type": "text-small",
+              "value": "I'm what drives your passion, can't you see, Where your hobbies and desires set you free. What am I?"
+            }
+          ],
+          "answer": "INTERESTS",
+          "row": 0,
+          "col": 4
+        },
+        "2": {
+          "clue": [
+            {
+              "type": "text-small",
+              "value": "I'm where jobs are found, it's plain to see, Where employers hire folks like you and me. What am I?"
+            }
+          ],
+          "answer": "JOB",
+          "row": 1,
+          "col": 2
+        }
+      }
+    }
+  }
+}

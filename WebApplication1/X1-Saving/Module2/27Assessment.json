@@ -1,0 +1,75 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 4,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "What is it like when your savings grow over time and bring you closer to your goals? "
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L3EA02/business-mcq.svg",
+          "style": {
+            "maxHeight": "12rem",
+            "height": "12rem",
+            "width": "12rem",
+            "verticalAlign": "bottom"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Earning badges in a video game"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": " Finding hidden treasures"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": " Opening doors to new opportunities"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Becoming a real-life superhero"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Your savings growing over time is compared to earning badges in a video game, where you achieve milestones as you save more money.)"
+      }
+    ]
+  }
+}

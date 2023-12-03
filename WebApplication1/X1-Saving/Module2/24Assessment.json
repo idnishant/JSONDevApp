@@ -1,0 +1,76 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "What is the purpose of Step 1: Setting a Savings Goal in the savings adventure?"
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L3EA02/business-mcq.svg",
+          "style": {
+            "maxHeight": "12rem",
+            "height": "12rem",
+            "width": "12rem",
+            "verticalAlign": "bottom"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "To go on a treasure hunt"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": " To calculate the cost of a video game"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "To make a plan for saving money"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "To find hidden treasure chests"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Step 1 in the savings adventure is about deciding what you want to save money for, like saving for a new book, and making a plan for how to save the money to reach that goal.)"
+      }
+    ]
+  }
+}
+

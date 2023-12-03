@@ -1,0 +1,44 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+
+      {
+        "type": "image",
+        "value": "/assets/icons/badge.svg",
+        "style": {
+          "maxHeight": "11rem",
+          "height": "11rem",
+          "width": "11rem"
+        }
+      },
+
+      {
+        "type": "text-medium",
+        "value": "Remember we fell short of 150, here's an opportunity for you to earn some money by helping Tara raise some money through the Charity Fundraiser.",
+
+        "style": {
+          "fontSize": "24px",
+          "fontWeight": "400"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

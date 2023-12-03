@@ -1,0 +1,33 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Charity Fundraiser Challenge"
+      },
+      {
+        "type": "text",
+        "value": "Meet Tara, a young student who is passionate about helping others. She wants to raise money for a local animal shelter through a charity fundraiser. Tara has a limited amount of time and resources, but she's determined to make a positive impact."
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}
+

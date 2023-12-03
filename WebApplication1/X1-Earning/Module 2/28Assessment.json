@@ -1,0 +1,81 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": " I run my own business, making a mark, \nIt takes hard work and a certain spark.\nProfits and losses are part of the game, \nBut my income can be irregular, not the same"
+        },
+        {
+          "type": "text-medium",
+          "value": " Who am I?"
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Employee"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Self-Employed"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Business Owner"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Investor"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The poem describes a person who runs their own business, dealing with the challenges of profit and loss. Business owners take ownership of their ventures and are responsible for the success or failure of the business. Their income can be irregular, as it depends on the performance of the business"
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "sender": "Greenline",
+      "text": " Now, let’s assess your knowledge of what we have learned so far."
+    }
+  ]
+}

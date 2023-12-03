@@ -1,0 +1,29 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/modules/1/intro-1.svg)",
+      "foreground": "/assets/images/backgrounds/fr-1.svg"
+    }
+  },
+  "content": {
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "sender": "Greenline",
+      "text": "It's perfectly okay if you're still thinking about these. Every decision we make about money teaches us something. Let's continue exploring!"
+    }
+  ]
+}

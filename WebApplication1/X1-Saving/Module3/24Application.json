@@ -1,0 +1,27 @@
+{
+  "template": "activity-subjective",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "subjective": {
+    "type": "small",
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Name the Bank of your country, in which your family has a savings account?"
+        }
+      ]
+    }
+  }
+}

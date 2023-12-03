@@ -1,0 +1,122 @@
+{
+  "template": "activity-drag-n-drop",
+  "dragAndDrop": {
+    "questionNumber": 1,
+    "totalQuestions": 1,
+    "variant": "assessment",
+    "question": [
+      {
+        "type": "text-heading",
+        "value": "Match the following"
+      },
+      {
+        "type": "text",
+        "value": "Drag and match the skill, interest, knowledge, or time to the  job or activity that is related to earning money."
+      }
+     
+    ],
+    "categories": [
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "A. Knowledge of plants and gardening"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Gardening"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "B. Dancing skills and passion for dance"
+
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Teaching a dance class"
+
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+
+
+            "value": "C.Time spent caring for children"
+
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Babysitting"
+
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "D. Creativity and craft-making skills"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Selling homemade crafts"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "E. Writing skills and storytelling knowledge"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Writing a book"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+

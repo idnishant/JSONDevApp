@@ -1,0 +1,113 @@
+{
+  "template": "activity-drag-n-drop",
+  "dragAndDrop": {
+    "questionNumber": 1,
+    "totalQuestions": 1,
+    "variant": "assessment",
+    "question": [
+      {
+        "type": "text-medium",
+        "value": "Max used an app to record some of his transactions. He's not sure if they got recorded correctly. Here are some of them."
+      }
+    ],
+    "categories": [
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Digital Music: $8"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Unlocking new levels in a puzzle game"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Online Game Coins: $12"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Song about the moon"
+
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+
+
+            "value": "E-Book: $5"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Game with dragons"
+
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Extra game levels: $7"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Magic kingdom movie"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Watch a movie: $6"
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Adventure storybook"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/modules/paid-L2EA02/bg-1.png",
+    "foreground": "/assets/images/modules/paid-L2EA02/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+
+        "url": "/assets/characters/ray-talking.svg"
+      },
+
+      {
+        "name": "MAX",
+        "url": "/assets/characters/max-talking.svg"
+      }
+    ]
+  },  "dialogues": [
+        {
+            "sender": "Greenline",
+            "text": "Well, not exactly, Max. Your dad's job as a teacher is different. He earns a salary for sharing his knowledge and helping you learn. Artists, on the other hand, create unique artworks tailored to specific requests when they do commissions. It's a bit like ordering a custom-made pizza – you get exactly what you want!"
+        }
+    ]
+
+}
+

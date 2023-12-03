@@ -1,0 +1,127 @@
+{
+  "template": "activity-grid-select",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/shopping.svg)"
+    }
+  },
+  "grid": {
+    "itemThreshold": 3,
+    "rowCount": 3,
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/cycle.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/shoes.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/skate.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/octopus.png"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/camera.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/smart-watch.png"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/t-shirt.png"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/camera.png"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/vr.png"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/skateboard.png"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/football.png"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA01/bag.png"
+          }
+        ]
+      }
+    ],
+    "content": {
+      "title": "Select 3 things ",
+      "subtitle": "that you want to buy & checkout",
+      "actionText": "Submit"
+    }
+  }
+}

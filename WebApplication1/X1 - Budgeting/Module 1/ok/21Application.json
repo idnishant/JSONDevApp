@@ -1,0 +1,83 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "multiSelect": true,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "Time to pick the venue! Where would you like to host Ray's birthday party?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Home"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          },
+          {
+            "type": "text",
+            "value": "(Free)"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Amusement Park"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          },
+          {
+            "type": "text",
+            "value": "($300)"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Hotel (pool party)"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          },
+          {
+            "type": "text",
+            "value": "($500)"
+          }
+        ]
+      }
+    ],
+    "variant": "tile",
+    "optionsFlow": "horizontal"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 2,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "How can you determine how long it will take to reach your savings goal?"
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L3EA02/business-mcq.svg",
+          "style": {
+            "maxHeight": "12rem",
+            "height": "12rem",
+            "width": "12rem",
+            "verticalAlign": "bottom"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Multiply the cost of the treasure by the weekly savings amount"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": " Divide the monthly savings amount by the cost of the treasure"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": " Divide the cost of the treasure by the monthly savings amount "
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Add the cost of the treasure and the monthly savings amount"
+          }
+        ],
+        "explaination": [
+          {
+            "type": "text",
+            "value": " To figure out when you'll reach your savings goal, divide the cost of your goal by your monthly savings amount. This tells you how many months it will take to get there.)"
+          }
+        ]
+      }
+  }

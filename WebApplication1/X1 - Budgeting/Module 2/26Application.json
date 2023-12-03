@@ -1,0 +1,58 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Sarah's Money Adventure",
+        "style": {
+          "fontSize": "30px",
+          "fontWeight": "800"
+
+        }
+      },
+      {
+        "type": "text",
+        "value": "If she fail to save 20% then what expenses she should avoid so that she can save as per the golden rule?",
+        "style": {
+          "fontSize": "16px",
+          "fontWeight": "400"
+
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "If you are not sure take the help of the Greenline.",
+        "text": "Hey Greenline, i am 8 years old, I have categorized my expenses as fixed, variable and periodic.if I want to save 20% as per the golden rule of budgeting how can I decide which expenses I can avoid?"
+      }
+    }
+  ]
+}

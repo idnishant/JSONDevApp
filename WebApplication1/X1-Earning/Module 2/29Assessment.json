@@ -1,0 +1,75 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 2,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "I work for a company, 9 to 5,\nAnd my salary keeps me alive.\nMy pay is consistent, you can rely upon me,\nIt comes once a month, and you can’t deny"
+        },
+        {
+          "type": "text-medium",
+          "value": " Who am I?"
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Employee"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Self-Employed"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Business Owner"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Investor"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The poem describes a person who works for a company from 9 to 5, receiving a consistent salary once a month. Employees are hired by companies to perform specific tasks or roles, and they receive regular pay in exchange for their services."
+      }
+    ]
+  }
+}

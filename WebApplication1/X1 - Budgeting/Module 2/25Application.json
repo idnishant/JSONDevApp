@@ -1,0 +1,36 @@
+{
+  "template": "activity-table",
+  "table": {
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "The Golden Rule of Budgeting",
+          "style": {
+            "fontWeight": "800"
+          }
+
+        }
+      ]
+    },
+    "orientation": "col-wise",
+    "columns": [
+      {
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Hey buddy, recall our budgeting chat! Did Sarah manage to stash away 20% from her $40 allowance?",
+            "style": {
+              "fontWeight": "400"
+            }
+          }
+        ],
+        "color": "#EEFFF3",
+        "type": "select",
+        "values": [ "Yes", "No" ]
+      }
+    ],
+    "rows": [ [ {} ] ]
+  }
+}

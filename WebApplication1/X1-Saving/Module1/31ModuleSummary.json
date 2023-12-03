@@ -1,0 +1,40 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Module Summary"
+      },
+      {
+        "type": "text",
+        "value": "Savings and Its importance"
+      },
+      {
+        "type": "text",
+        "value": "Savings help you in achieving your dreams and providing security."
+      },
+      {
+        "type": "text",
+        "value": "Setting goals, making plans, and watching our savings grow."
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "primary",
+        "contents": [
+          {
+            "type": "text",
+            "value": "Next Module"
+          }
+        ]
+      }
+    ]
+  }
+}

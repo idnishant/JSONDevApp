@@ -1,0 +1,64 @@
+{
+  "template": "activity-table",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/task-bg.png)"
+    }
+  },
+  "table": {
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "We definitely helped Tara to effectively use her Skills and Interest.\n Now its time for you to identify your skills and interest areas. \nList down one skill and interest close to your heart."
+        }
+      ]
+    },
+    "orientation": "col-wise",
+    "columns": [
+      {
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Skill"
+          }
+        ],
+        "type": "input"
+      },
+      {
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Interest"
+          }
+        ],
+        "type": "input"
+      }
+    ],
+    "rows": [
+      [
+        {},
+        {}
+      ]
+    ]
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "Remember - Ms. Greenline is always there to assist you.",
+        "text": "Hey, I'm learning about Skills and Interests, can you help me identify my skills and interest."
+      }
+    }
+  ]
+
+}
+

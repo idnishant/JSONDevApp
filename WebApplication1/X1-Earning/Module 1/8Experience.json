@@ -1,0 +1,64 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/backgrounds/shopping.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "image",
+        "value": "/assets/images/modules/paid-L2EA01/cart.png",
+        "style": {
+
+          "width": "144px",
+          "height": "158px",
+          "top": "35px",
+          "left": "230px"
+        }
+
+      },
+      {
+        "type": "text-heading",
+        "value": "Opps!",
+        "style": {
+          "fontFamily": "Nunito",
+          "fontSize": "24px",
+          "fontWeight": "800",
+          "lineHeight": "30px",
+          "letterSpacing": "0em",
+          "textAlign": "center"
+
+        }
+      },
+      {
+        "type": "text",
+        "value": "Seems like we have a problem.\n What do we do now?",
+        "style": {
+          "fontFamily": "Nunito",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "width": "300px",
+          "letterSpacing": "0em",
+          "textAlign": "center"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "variant": "card"
+  }
+}
+

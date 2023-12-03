@@ -1,0 +1,30 @@
+{
+  "template": "activity-subjective",
+  "subjective": {
+    "type": "large",
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": { "height": "4.5rem" }
+        },
+        {
+          "type": "text-heading",
+          "value": "What do you think we can do to get more money?",
+          "style": {
+            "fontWeight": "400"
+          }
+        }
+      ]
+
+    }
+  },
+  "dialogues": [
+    {
+      "sender": "Greenline",
+      "text": "Yes, you kids are right! You might not have enough money to buy those things right now, but you can definitely work towards getting them."
+    }
+  ]
+}

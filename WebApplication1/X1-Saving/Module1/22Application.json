@@ -1,0 +1,63 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "tile",
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-heading",
+          "value": "b) Imagine that you have $10 and you want to get a remote car for $40. How much would you have to save for that?"
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text-heading",
+            "value": " $10"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text-heading",
+            "value": "$20"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text-heading",
+            "value": "$30"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text-heading",
+            "value": "$50"
+          }
+        ]
+      }
+    ]
+  }
+}
+

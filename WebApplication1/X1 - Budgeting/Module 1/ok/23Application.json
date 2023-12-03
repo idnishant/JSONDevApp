@@ -1,0 +1,87 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "multiSelect": true,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Choose a return gift to thank the kids for attending.",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Stationery kit"
+          },
+          {
+            "type": "text",
+            "value": "($50)"
+
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          }
+
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Custom T-shirt"
+          },
+          {
+            "type": "text",
+            "value": "($200)"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          }
+
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Goodie Bags with toys and candies"
+          },
+          {
+            "type": "text",
+            "value": "($350)"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          }
+
+        ]
+      }
+    ],
+    "variant": "tile",
+    "optionsFlow": "horizontal"
+  }
+}

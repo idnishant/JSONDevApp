@@ -1,0 +1,82 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "Instructions: Given below are multiple choice questions, select the correct answer."
+        },
+        {
+          "type": "image",
+          "value": "/assets/icons/sparkles.svg"
+        },
+
+        {
+          "type": "text-heading",
+          "value": " What does "
+          "delayed",
+          "gratification\" mean?\""
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Spending money right away"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Saving money for something special in the future"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Sharing money with friends"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "None of the above"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Delayed gratification means saving money for something special in the future instead of spending it right away. It's like waiting patiently to get something you really want later on."
+      },
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg"
+
+      }
+
+    ]
+  }
+}

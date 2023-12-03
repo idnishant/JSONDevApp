@@ -1,0 +1,39 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/images/modules/paid-L2EA02/bg-1.png",
+    "foreground": "/assets/images/modules/paid-L2EA02/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "RAY",
+        "color": "#E85146",
+
+        "url": "/assets/characters/ray-talking-2.svg"
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": " Yeah, it's cool! But who's that guy sitting next to it? Is he the artist?"
+          }
+        ],
+        "url": "/assets/characters/max-confused.svg"
+      }
+    ]
+  }
+}
+

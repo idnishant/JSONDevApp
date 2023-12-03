@@ -1,0 +1,40 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "Let’s ask Ms. Greenline!",
+        "text": "Hey, I am a Grade 4 student. I'm on a Savings Adventure Quest, and I need some help. Can you assist me with 5 ways I can save money to buy my favourite things?"
+      }
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "type": "text",
+        "value": "That’s great! Now, let’s see what you can do to save money for these things.",
+        "style": {
+          "fontSize": "1.8rem"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

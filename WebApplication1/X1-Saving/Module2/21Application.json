@@ -1,0 +1,44 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "If you have any doubts, ask Ms. Greenline.",
+        "text": "Hello, Ms. Greenline! I'm a grade 4 student, and I'm curious about setting savings goals. Can you tell me more about it?"
+      }
+    }
+  ],
+  "content": {
+    "sections": [
+
+      {
+        "type": "text",
+        "value": "Can you tell me about setting savings goals and why is it important?",
+        "style": {
+          "fontSize": "1.8rem"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

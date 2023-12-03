@@ -1,0 +1,75 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 3,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "Spending your savingsWhat is the recommended method for tracking your progress toward your savings goal?"
+        },
+        {
+          "type": "image",
+          "value": "/assets/images/modules/paid-L3EA02/business-mcq.svg",
+          "style": {
+            "maxHeight": "12rem",
+            "height": "12rem",
+            "width": "12rem",
+            "verticalAlign": "bottom"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Spending your savings"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": " Investing in stocks"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": " Creating a savings chart "
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Giving away your money"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The recommended way to track your progress toward your savings goal is by creating a savings chart. This chart helps you see how much money you've saved and how close you are to reaching your goal, making it easier to stay on track.)"
+      }
+    ]
+  }
+}

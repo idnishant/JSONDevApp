@@ -1,0 +1,61 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Who has a steady source of income?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "40px"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA02/artist.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L2EA02/teacher.png",
+            "style": {
+              "maxHeight": "11rem",
+              "height": "11rem",
+              "width": "11rem"
+            }
+          }
+        ]
+      }
+    ],
+    "variant": "tile",
+    "optionsFlow": "horizontal"
+  }
+}
+

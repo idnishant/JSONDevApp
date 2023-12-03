@@ -1,0 +1,50 @@
+{
+  "template": "activity-mcq",
+
+ "mcq": {
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Do you have a skill which you love?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "40px"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Obviously"
+
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Never thought about it"
+
+          }
+        ]
+      }
+    ]
+  }
+}

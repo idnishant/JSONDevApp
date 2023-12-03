@@ -1,0 +1,38 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Module Summary"
+      },
+
+      {
+        "type": "text",
+        "value": "Savings are crucial for financial goals and security."
+      },
+      {
+        "type": "text",
+        "value": "Set goals, plan, and watch your savings grow for a confident financial future."
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "primary",
+        "contents": [
+          {
+            "type": "text",
+            "value": "Next Module"
+          }
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,50 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+
+        {
+          "type": "text-heading",
+          "value": "Ques 2. Do you think it is safe to keep money saved by you in a jar at home?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/sparkles.svg"
+          }
+        ],
+        "feedback": {
+          "text": "Good point, you need to be alert as safety matters."
+        }
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/sparkles.svg"
+          }
+        ],
+        "feedback": {
+          "text": "You're right, safety is important."
+        }
+      }
+    ]
+  }
+}

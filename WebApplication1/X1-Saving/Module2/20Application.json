@@ -1,0 +1,91 @@
+{
+  "template": "activity-drag-n-drop",
+  "dragAndDrop": {
+    "question": [
+      {
+        "type": "text-medium",
+        "value": "Instructions: Match the saving method with the description/action of Alex. Drag the saving method to that description in the table:"
+      },
+      {
+        "type": "text-heading",
+        "value": "Activity: Savings Style Sorter"
+      }
+    ],
+    "categories": [
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Alex enjoys watching his money grow with interest."
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Money jar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Alex likes to see his savings grow gradually, keeping his savings close at hand."
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Savings account"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Alex prefers to save loose change and small bills over time."
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Investing in stocks"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "value": "Alex is willing to take some calculated risks to grow his money."
+          }
+        ],
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Collecting spare change"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

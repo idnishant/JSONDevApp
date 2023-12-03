@@ -1,0 +1,50 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/images/task-bg.svg)"
+    }
+  },
+  "prompts": [
+    {
+      "type": "bot-nudge",
+      "data": {
+        "context": "Ask Ms. Greenline.",
+        "text": "“Hey",
+        "Greenline",
+        "I'm a grade 4 student. Can you tell me why using a savings account is better than keeping money in a jar at home in 3 points?\""
+      }
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "type": "text-heading",
+        "value": "Activity name : “Jar Vs Account”"
+      },
+      {
+        "type": "text",
+        "value": "Question: Do you know the reason why a savings account is a better choice than keeping money in a jar at home?",
+        "style": {
+          "fontSize": "1.8rem"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+

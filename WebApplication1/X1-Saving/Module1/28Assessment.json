@@ -1,0 +1,72 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 3,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "I'm your superhero shield when rainy days appear, helping you conquer life without fear. What am I?"
+        }
+      ]
+    },
+    "optionsFlow": "vertical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Savings "
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Goal-setting"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Regular Savings"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Emergency Fund"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "text-medium",
+            "value": "Savings plan"
+          }
+        ],
+        "isCorrect": false
+      }
+
+    ]
+  }
+}

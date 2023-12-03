@@ -1,0 +1,107 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "tile",
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": "Different ways people save money!"
+
+        },
+        {
+          "type": "text-medium",
+          "value": "After learning about different ways people save money, which saving method do you think you'd be most likely to use? "
+
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L3EA02/employee-mcq.svg",
+            "style": {
+              "maxHeight": "8rem",
+              "height": "8rem",
+              "width": "8rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "tooltip": {
+          "name": "Money Jar:",
+          "description": "Saving money in a money jar involves physically collecting loose change and small bills in a jar over time.",
+          "style": {
+            "backgroundColor": "#DBFFEF"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L3EA02/self-mcq.svg",
+            "style": {
+              "maxHeight": "8rem",
+              "height": "8rem",
+              "width": "8rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "tooltip": {
+          "name": "Savings Account:",
+          "description": "A savings account is like a special bank account where you can deposit your money. Your money earns interest over time, which means it grows as you keep it in the account. ",
+          "style": {
+            "backgroundColor": "#DBFFEF",
+            "width": "51rem"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L3EA02/business-mcq.svg",
+            "style": {
+              "maxHeight": "8rem",
+              "height": "8rem",
+              "width": "8rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ],
+        "tooltip": {
+          "name": "Investing in Stocks:",
+          "description": "Investing in stocks means you buy a small piece of a company's ownership (a share). When the company does well, the value of your shares can increase, helping your money grow. ",
+          "style": {
+            "backgroundColor": "#DBFFEF"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/modules/paid-L3EA02/investor-mcq.svg",
+            "style": {
+              "maxHeight": "8rem",
+              "height": "8rem",
+              "width": "8rem",
+              "verticalAlign": "bottom"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

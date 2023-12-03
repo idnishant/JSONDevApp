@@ -1,0 +1,96 @@
+{
+  "template": "activity-mcq",
+
+  "mcq": {
+    "multiSelect": true,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Which food menu would you choose for the party?",
+          "style": {
+            "fontSize": "24px",
+            "fontWeight": "400"
+
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Basic"
+          },
+          {
+            "type": "text",
+            "value": " Fries, Burger, Coke "
+          },
+          {
+            "type": "text",
+            "value": "($100)"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          }
+
+        ]
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Medium"
+          },
+          {
+            "type": "text",
+            "value": "Fries, Burger, Coke, Pizza, Ice Cream  "
+          },
+          {
+            "type": "text",
+            "value": "($200)"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Large"
+          },
+          {
+            "type": "text",
+            "value": "Fries, Burger, Coke, Pizza, Ice Cream "
+          },
+          {
+            "type": "text",
+            "value": "($350)"
+          },
+          {
+            "type": "image",
+            "value": "/assets/images/modules/[moduleCode]/offer-letterenvelope.svg"
+          }
+        ]
+      }
+    ],
+    "variant": "tile",
+    "optionsFlow": "horizontal"
+  }
+}

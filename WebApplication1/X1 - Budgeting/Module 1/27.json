@@ -1,0 +1,35 @@
+{
+  "template": "activity-table",
+  "table": {
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-medium",
+          "value": "Did you follow the rule of 50:30:20?",
+          "style": {
+            "fontSize": "30px",
+            "fontWeight": "800"
+          }
+
+        }
+      ]
+    },
+    "orientation": "col-wise",
+    "columns": [
+      {
+        "header": [
+          {
+            "type": "text-medium",
+            "value": " "
+           
+          }
+        ],
+        "color": "#EEFFF3",
+        "type": "select",
+        "values": [ "Yes", "No" ]
+      }
+    ],
+    "rows": [ [ {} ] ]
+  }
+}

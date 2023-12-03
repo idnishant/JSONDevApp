@@ -1,0 +1,32 @@
+{
+ "template": "activity-subjective",
+ "templateOptions": {
+ "styles": {
+ "backgroundImage": "url(/assets/images/task-bg.svg)"
+ }
+ },
+ "subjective": {
+ "type": "small",
+ "question": {
+ "id": 1,
+ "contents": [
+ {
+ "type": "image",
+ "value": "/assets/icons/question-mark-icon.svg",
+ "style": {
+ "height": "4.5rem"
+ }
+ },
+  {
+    "type": "text",
+    "value": "What is Sarah's total income this month, including her birthday money and monthly allowance?",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400"
+
+    }
+  }
+ ]
+ }
+ }
+}

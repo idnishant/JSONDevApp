@@ -1,0 +1,19 @@
+{
+  "template": "activity-input",
+  "input": {
+    "length": 3,
+    "question": [
+      {
+        "type": "image",
+        "value": "/assets/icons/question-mark-icon.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Think of three things you often spend your money on. What are they?"
+      }
+    ]
+  }
+}

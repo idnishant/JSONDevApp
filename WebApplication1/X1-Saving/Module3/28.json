@@ -1,0 +1,71 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 3,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text-heading",
+          "value": " 2. How can you make saving money a habit?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Spend all your money each week"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Set clear goals for saving"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Buy toys whenever you want"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "text",
+            "value": "None of the above"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "To make saving money a habit, it helps to have specific goals in mind. This means deciding what you want to save for, like a toy or a special outing, and regularly setting aside money to reach that goal."
+      },
+      {
+        "type": "image",
+        "value": "/assets/icons/sparkles.svg"
+
+      }
+
+    ]
+  }
+}

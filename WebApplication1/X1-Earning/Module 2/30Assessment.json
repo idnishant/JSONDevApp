@@ -1,0 +1,75 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "multiSelect": false,
+    "totalQuestions": 5,
+    "questionNumber": 3,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "text",
+          "value": "I work for myself, taking on gigs,\nMy skills and knowledge are what I rig.\nI set my rates and manage my time,\nI get paid by the project, a system that's prime"
+        },
+        {
+          "type": "text-medium",
+          "value": " Who am I?"
+        }
+      ]
+    },
+    "optionsFlow": "virtical",
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Employee"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Self-Employed"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Business Owner"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "contents": [
+
+          {
+            "type": "text",
+            "value": "Investor"
+          }
+        ],
+        "isCorrect": false
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The poem describes a person who works for themselves, taking on gigs or projects and setting their own rates. Self-employed individuals are independent workers who offer their services directly to clients or customers and manage their own work schedules and finances"
+      }
+    ]
+  }
+}

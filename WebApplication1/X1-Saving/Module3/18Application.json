@@ -1,0 +1,50 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+
+    "multiSelect": false,
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark-icon.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+
+        {
+          "type": "text-heading",
+          "value": "Ques 3. Have you ever asked your parents about where they keep their money safe?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/sparkles.svg"
+          }
+        ],
+        "feedback": {
+          "text": "That's great! It's good to learn about money safety."
+        }
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/sparkles.svg"
+          }
+        ],
+        "feedback": {
+          "text": "Okay, but remember it's a good thing to ask and learn."
+        }
+      }
+    ]
+  }
+}

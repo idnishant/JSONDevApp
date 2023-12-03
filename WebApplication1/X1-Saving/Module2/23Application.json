@@ -1,0 +1,19 @@
+{
+  "template": "activity-input",
+  "input": {
+    "length": 1,
+    "question": [
+      {
+        "type": "image",
+        "value": "/assets/icons/question-mark-icon.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text",
+        "value": "Why do you think that setting savings goals is important?"
+      }
+    ]
+  }
+}
